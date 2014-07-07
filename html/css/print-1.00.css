@@ -1,0 +1,25 @@
+﻿/*********
+* margin *
+*********/
+
+#content {
+	margin: 0px;
+}
+
+
+/*************
+* 100% width *
+*************/
+
+table.athleticsTable {
+	width: 100%;
+}
+
+
+/*******
+* Hide *
+*******/
+
+.noprint {
+	display: none;
+}
