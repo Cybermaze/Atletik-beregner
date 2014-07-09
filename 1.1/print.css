@@ -1,0 +1,19 @@
+/*******
+* Hide *
+*******/
+
+.noprint {
+	display: none;
+}
+
+
+/*************
+* 100% width *
+*************/
+table.atletik {
+	width: 100%;
+}
+
+html, body {
+	margin: 0px;
+}

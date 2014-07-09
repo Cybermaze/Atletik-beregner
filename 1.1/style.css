@@ -1,0 +1,151 @@
+/***********
+* Pagewide *
+***********/
+
+html, body {
+	margin: 10px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+body {
+	font: 100% "Microsoft Verdana", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 11px;
+}
+
+
+/*******
+* Text *
+*******/
+
+h1 {	/* title */
+	font-size: 18px;
+	margin: 0px 0px 10px;
+}
+
+h2 {	/* subtitle */
+	font-size: 14px;
+	margin: 0px 0px 10px;
+}
+
+/*******
+* Form *
+*******/
+
+form {
+	margin: 0px;
+}
+
+input, select {
+	font: 100% "Microsoft Verdana", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input.name, input.class {
+	background-color: #ffffff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: #000000 1px solid;
+}
+
+input.special {
+	background-color: #e2e2e2;
+	border: none;
+	text-align: right;
+}
+
+
+/*******
+* Table *
+*******/
+
+table.atletik, table.pointkrav {
+	background-color: #ffffff;
+	border: #000000 1px solid;
+	padding: 0px;
+	margin: 0px;
+}
+
+td {
+	/*background-color: #f2f2f2;*/
+	border: #505050 1px solid;
+	margin: 0px;
+	padding: 2px;
+}
+
+td.bred {
+	width: 100px;
+}
+
+td.medium {
+	width: 80px;
+	text-align: right;
+}
+
+td.smal {
+	width: 65px;
+	text-align: right;
+}
+
+td.bbred {
+	background-color: #9CF;
+	width: 100px;
+}
+
+td.bmedium {
+	background-color: #9CF;
+	width: 80px;
+	text-align: right;
+}
+
+td.bsmal {
+	background-color: #9CF;
+	width: 65px;
+	text-align: right;
+}
+
+td.gbred {
+	background-color: #F9C;
+	width: 100px;
+}
+
+td.gmedium {
+	background-color: #F9C;
+	width: 80px;
+	text-align: right;
+}
+
+td.gsmal {
+	background-color: #F9C;
+	width: 65px;
+	text-align: right;
+}
+
+td.smalgrey {
+	width: 65px;
+	text-align: right;
+	background-color: #e2e2e2;
+}
+
+td.grey {
+	background-color: #e2e2e2;
+}
+
+
+/*******
+* Link *
+*******/
+
+a {
+	color: #2060c0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,239 @@
+﻿/***********
+* Pagewide *
+***********/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+
+body {
+	font: 100% "Microsoft Verdana", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 11px;
+}
+
+#content {
+	margin: 10px;
+}
+
+
+/*******
+* Text *
+*******/
+
+h1 {	/* title */
+	font-size: 18px;
+	margin: 0px 0px 10px;
+}
+
+h2 {	/* subtitle */
+	font-size: 14px;
+	margin: 0px 0px 10px;
+}
+
+
+/*****************
+* Gender Buttons *
+*****************/
+
+#genderButtons {
+	width: 100%;
+	overflow: hidden;
+}
+
+#boysButton {
+	width: 50%;
+	height: 22px;
+	float: left;
+	background-color: #9CF;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#girlsButton {
+	width: 50%;
+	height: 22px;
+	float: right;
+	background-color: #F9C;
+	padding-top: 5px;
+	text-align: center;
+}
+
+
+/*******
+* Form *
+*******/
+
+input {
+	font: 100% "Microsoft Verdana", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input.nameInput, input.classInput {
+	background-color: #ffffff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: #000000 1px solid;
+}
+
+input.resultInputLight {
+	background-color: #f7fff7;
+	border: none;
+	text-align: right;
+}
+
+input.resultInputDark {
+	background-color: #c3e0c3;
+	border: none;
+	text-align: right;
+}
+
+
+/*******
+* Table *
+*******/
+
+table.athleticsTable, table.pointkrav {
+	background-color: #ffffff;
+	border: #000000 1px solid;
+	padding: 0px;
+	margin: 0px;
+}
+
+td, th {
+	border: #505050 1px solid;
+	margin: 0px;
+	padding: 2px;
+}
+
+td.verySmall {
+	font-size: 10px;
+	width: 1em;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+td.small {
+	width: 70px;
+	text-align: center;
+}
+
+td.wide {
+	width: 100px;
+	text-align: left;
+}
+
+td.smallGrey {
+	width: 70px;
+	text-align: center;
+	background-color: #e2e2e2;
+}
+
+td.wideGrey {
+	width: 100px;
+	text-align: left;
+	background-color: #e2e2e2;
+}
+
+td.smallResultLight {
+	width: 70px;
+	text-align: right;
+	background-color: #edffed;
+}
+
+td.smallResultDark {
+	width: 70px;
+	text-align: right;
+	background-color: #c3e0c3;
+}
+
+td.smallPoints {
+	width: 70px;
+	text-align: right;
+}
+
+td.smallPointsGrey {
+	width: 70px;
+	text-align: right;
+	background-color: #e2e2e2;
+}
+
+td.smallPointsBold {
+	width: 70px;
+	font-weight: bold;
+	text-align: right;
+}
+
+td.widePoints {
+	text-align: left;
+}
+
+
+/************
+* boysTable *
+************/
+
+th.boysSmall {
+	background-color: #9CF;
+	width: 70px;
+	text-align: center;
+}
+
+th.boysWide {
+	background-color: #9CF;
+	width: 125px;
+	text-align: left;
+}
+
+
+/*************
+* girlsTable *
+*************/
+
+th.girlsSmall {
+	background-color: #F9C;
+	width: 70px;
+	text-align: center;
+}
+
+th.girlsWide {
+	background-color: #F9C;
+	width: 125px;
+	text-align: left;
+}
+
+
+/*******
+* Link *
+*******/
+
+a {
+	color: #2060c0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*********
+* Farver *
+*********/
+
+.green {
+	color: #23a500;
+}
+
+.yellow {
+	color: #f4b200;
+}
+
+.red {
+	color: #ff0000;
+}
